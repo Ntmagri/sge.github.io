@@ -4,7 +4,9 @@
     "pk": 1,
     "fields": {
       "name": "Via Manzoni",
-      "description": "Moda feminina contemporânea e elegante"
+      "description": "Moda feminina contemporânea e elegante",
+      "created_at": "2024-08-01 10:00:00",
+      "updated_at": "2024-08-01 10:00:00"
     }
   },
   {
@@ -12,7 +14,9 @@
     "pk": 1,
     "fields": {
       "name": "Coleção Festas",
-      "description": "Peças especiais para ocasiões festivas"
+      "description": "Peças especiais para ocasiões festivas",
+      "created_at": "2024-08-01 11:00:00",
+      "updated_at": "2024-08-01 11:00:00"
     }
   },
   {
@@ -20,7 +24,9 @@
     "pk": 2,
     "fields": {
       "name": "Camiseta",
-      "description": "Camisetas básicas e estampadas"
+      "description": "Camisetas básicas e estampadas",
+      "created_at": "2024-08-01 11:05:00",
+      "updated_at": "2024-08-01 11:05:00"
     }
   },
   {
@@ -28,7 +34,9 @@
     "pk": 3,
     "fields": {
       "name": "Shorts",
-      "description": "Shorts para o dia a dia e verão"
+      "description": "Shorts para o dia a dia e verão",
+      "created_at": "2024-08-01 11:10:00",
+      "updated_at": "2024-08-01 11:10:00"
     }
   },
   {
@@ -36,7 +44,9 @@
     "pk": 4,
     "fields": {
       "name": "Conjunto",
-      "description": "Conjuntos coordenados femininos"
+      "description": "Conjuntos coordenados femininos",
+      "created_at": "2024-08-01 11:15:00",
+      "updated_at": "2024-08-01 11:15:00"
     }
   },
   {
@@ -44,7 +54,9 @@
     "pk": 5,
     "fields": {
       "name": "Blazer",
-      "description": "Blazers para looks executivos e casuais"
+      "description": "Blazers para looks executivos e casuais",
+      "created_at": "2024-08-01 11:20:00",
+      "updated_at": "2024-08-01 11:20:00"
     }
   },
   {
@@ -52,79 +64,39 @@
     "pk": 6,
     "fields": {
       "name": "Cropped",
-      "description": "Blusas e tops cropped"
+      "description": "Blusas e tops cropped",
+      "created_at": "2024-08-01 11:25:00",
+      "updated_at": "2024-08-01 11:25:00"
     }
   },
   {
     "model": "categories.category",
     "pk": 7,
     "fields": {
-      "name": "Camisa",
-      "description": "Camisas sociais e casuais"
+      "name": "Vestido",
+      "description": "Vestidos casuais, sociais e de festa",
+      "created_at": "2024-08-01 11:30:00",
+      "updated_at": "2024-08-01 11:30:00"
     }
   },
   {
     "model": "categories.category",
     "pk": 8,
     "fields": {
-      "name": "Saia",
-      "description": "Saias de diversos comprimentos e estilos"
+      "name": "Calça",
+      "description": "Calças jeans, sociais e legging",
+      "created_at": "2024-08-01 11:35:00",
+      "updated_at": "2024-08-01 11:35:00"
     }
   },
   {
     "model": "categories.category",
     "pk": 9,
     "fields": {
-      "name": "Vestido",
-      "description": "Vestidos casuais, sociais e de festa"
-    }
-  },
-  {
-    "model": "categories.category",
-    "pk": 10,
-    "fields": {
-      "name": "Blusa",
-      "description": "Blusas femininas variadas"
-    }
-  },
-  {
-    "model": "categories.category",
-    "pk": 11,
-    "fields": {
-      "name": "Calça",
-      "description": "Calças jeans, sociais e legging"
-    }
-  },
-  {
-    "model": "categories.category",
-    "pk": 12,
-    "fields": {
-      "name": "Macacão",
-      "description": "Macacões e jardineiras femininas"
-    }
-  },
-  {
-    "model": "categories.category",
-    "pk": 13,
-    "fields": {
-      "name": "Casaco",
-      "description": "Casacos, jaquetas e agasalhos"
-    }
-  },
-  {
-    "model": "categories.category",
-    "pk": 14,
-    "fields": {
       "name": "Acessórios",
-      "description": "Bolsas, cintos e bijuterias"
-    }
-  },
-  {
-    "model": "categories.category",
-    "pk": 15,
-    "fields": {
-      "name": "New Drop",
-      "description": "Novidades e lançamentos da semana"
+      "description": "Bolsas, cintos e bijuterias",
+      "created_at": "2024-08-01 11:40:00",
+      "updated_at": "2024-08-01 11:40:00"
     }
   },
   {
@@ -133,10 +105,8 @@
     "fields": {
       "name": "Confecções Bela Vista",
       "description": "Fornecedor principal de peças Via Manzoni",
-      "cnpj": "12.345.678/0001-90",
-      "email": "vendas@belavista.com.br",
-      "phone": "(11) 3333-1234",
-      "address": "Rua José Paulino, 1500 - Bom Retiro, São Paulo"
+      "created_at": "2024-08-01 13:00:00",
+      "updated_at": "2024-08-01 13:00:00"
     }
   },
   {
@@ -145,10 +115,8 @@
     "fields": {
       "name": "Tecidos & Moda Ltda",
       "description": "Fornecedor de tecidos especiais e peças exclusivas",
-      "cnpj": "98.765.432/0001-10",
-      "email": "comercial@tecidosemoda.com.br",
-      "phone": "(11) 4444-5678",
-      "address": "Av. São João, 2200 - Centro, São Paulo"
+      "created_at": "2024-08-01 13:10:00",
+      "updated_at": "2024-08-01 13:10:00"
     }
   },
   {
@@ -157,10 +125,8 @@
     "fields": {
       "name": "Acessórios Manzoni",
       "description": "Fornecedor exclusivo de acessórios Via Manzoni",
-      "cnpj": "11.222.333/0001-44",
-      "email": "vendas@acessoriosmanzoni.com.br",
-      "phone": "(11) 5555-9012",
-      "address": "Rua 25 de Março, 890 - Centro, São Paulo"
+      "created_at": "2024-08-01 13:20:00",
+      "updated_at": "2024-08-01 13:20:00"
     }
   },
   {
@@ -169,14 +135,14 @@
     "fields": {
       "title": "Conjunto Moletom Marrom",
       "description": "Conjunto de moletom marrom - blusa e calça jogger",
-      "category": 4,
-      "brand": 1,
-      "cost_price": "45.00",
-      "selling_price": "89.90",
-      "quantity": 25,
       "serie_number": "VM001",
-      "created_at": "2024-08-15T10:00:00Z",
-      "updated_at": "2024-08-15T10:00:00Z"
+      "cost_price": "45.00000",
+      "selling_price": "89.90000",
+      "quantity": 25,
+      "created_at": "2024-08-15 10:00:00",
+      "updated_at": "2024-08-15 10:00:00",
+      "brand": 1,
+      "category": 4
     }
   },
   {
@@ -185,14 +151,14 @@
     "fields": {
       "title": "Blazer Preto Oversized",
       "description": "Blazer preto modelo oversized com botões dourados",
-      "category": 5,
-      "brand": 1,
-      "cost_price": "65.00",
-      "selling_price": "129.90",
-      "quantity": 18,
       "serie_number": "VM002",
-      "created_at": "2024-08-16T14:30:00Z",
-      "updated_at": "2024-08-16T14:30:00Z"
+      "cost_price": "65.00000",
+      "selling_price": "129.90000",
+      "quantity": 18,
+      "created_at": "2024-08-16 14:30:00",
+      "updated_at": "2024-08-16 14:30:00",
+      "brand": 1,
+      "category": 5
     }
   },
   {
@@ -201,295 +167,209 @@
     "fields": {
       "title": "Vestido Preto Elegante",
       "description": "Vestido preto midi com decote em V",
-      "category": 9,
-      "brand": 1,
-      "cost_price": "55.00",
-      "selling_price": "109.90",
-      "quantity": 20,
       "serie_number": "VM003",
-      "created_at": "2024-08-17T09:15:00Z",
-      "updated_at": "2024-08-17T09:15:00Z"
+      "cost_price": "55.00000",
+      "selling_price": "109.90000",
+      "quantity": 20,
+      "created_at": "2024-08-17 09:15:00",
+      "updated_at": "2024-08-17 09:15:00",
+      "brand": 1,
+      "category": 7
     }
   },
   {
     "model": "products.product",
     "pk": 4,
     "fields": {
-      "title": "Jaqueta Esportiva P&B",
-      "description": "Jaqueta esportiva preta com detalhes brancos",
-      "category": 13,
-      "brand": 1,
-      "cost_price": "70.00",
-      "selling_price": "139.90",
-      "quantity": 15,
+      "title": "Conjunto Preto Cropped",
+      "description": "Conjunto preto com top cropped e calça flare",
       "serie_number": "VM004",
-      "created_at": "2024-08-18T16:45:00Z",
-      "updated_at": "2024-08-18T16:45:00Z"
+      "cost_price": "40.00000",
+      "selling_price": "79.90000",
+      "quantity": 30,
+      "created_at": "2024-08-18 11:20:00",
+      "updated_at": "2024-08-18 11:20:00",
+      "brand": 1,
+      "category": 4
     }
   },
   {
     "model": "products.product",
     "pk": 5,
     "fields": {
-      "title": "Conjunto Preto Cropped",
-      "description": "Conjunto preto com top cropped e calça flare",
-      "category": 4,
-      "brand": 1,
-      "cost_price": "40.00",
-      "selling_price": "79.90",
-      "quantity": 30,
+      "title": "Camiseta Basic White",
+      "description": "Camiseta básica branca 100% algodão",
       "serie_number": "VM005",
-      "created_at": "2024-08-19T11:20:00Z",
-      "updated_at": "2024-08-19T11:20:00Z"
+      "cost_price": "15.00000",
+      "selling_price": "34.90000",
+      "quantity": 50,
+      "created_at": "2024-08-19 08:30:00",
+      "updated_at": "2024-08-19 08:30:00",
+      "brand": 1,
+      "category": 2
     }
   },
   {
     "model": "products.product",
     "pk": 6,
     "fields": {
-      "title": "Camiseta Basic White",
-      "description": "Camiseta básica branca 100% algodão",
-      "category": 2,
-      "brand": 1,
-      "cost_price": "15.00",
-      "selling_price": "34.90",
-      "quantity": 50,
+      "title": "Shorts Jeans Destroyed",
+      "description": "Shorts jeans com destroyed e barra desfiada",
       "serie_number": "VM006",
-      "created_at": "2024-08-20T08:30:00Z",
-      "updated_at": "2024-08-20T08:30:00Z"
+      "cost_price": "25.00000",
+      "selling_price": "49.90000",
+      "quantity": 35,
+      "created_at": "2024-08-20 13:45:00",
+      "updated_at": "2024-08-20 13:45:00",
+      "brand": 1,
+      "category": 3
     }
   },
   {
     "model": "products.product",
     "pk": 7,
     "fields": {
-      "title": "Shorts Jeans Destroyed",
-      "description": "Shorts jeans com destroyed e barra desfiada",
-      "category": 3,
-      "brand": 1,
-      "cost_price": "25.00",
-      "selling_price": "49.90",
-      "quantity": 35,
+      "title": "Calça Wide Leg Preta",
+      "description": "Calça preta modelo wide leg em alfaiataria",
       "serie_number": "VM007",
-      "created_at": "2024-08-21T13:45:00Z",
-      "updated_at": "2024-08-21T13:45:00Z"
+      "cost_price": "48.00000",
+      "selling_price": "94.90000",
+      "quantity": 20,
+      "created_at": "2024-08-21 12:00:00",
+      "updated_at": "2024-08-21 12:00:00",
+      "brand": 1,
+      "category": 8
     }
   },
   {
     "model": "products.product",
     "pk": 8,
     "fields": {
-      "title": "Blusa Ombro a Ombro",
-      "description": "Blusa off shoulder em tecido fluido",
-      "category": 10,
-      "brand": 1,
-      "cost_price": "30.00",
-      "selling_price": "59.90",
-      "quantity": 28,
-      "serie_number": "VM008",
-      "created_at": "2024-08-22T10:15:00Z",
-      "updated_at": "2024-08-22T10:15:00Z"
-    }
-  },
-  {
-    "model": "products.product",
-    "pk": 9,
-    "fields": {
-      "title": "Saia Midi Plissada",
-      "description": "Saia midi plissada em tecido acetinado",
-      "category": 8,
-      "brand": 1,
-      "cost_price": "38.00",
-      "selling_price": "74.90",
-      "quantity": 22,
-      "serie_number": "VM009",
-      "created_at": "2024-08-23T15:30:00Z",
-      "updated_at": "2024-08-23T15:30:00Z"
-    }
-  },
-  {
-    "model": "products.product",
-    "pk": 10,
-    "fields": {
-      "title": "Calça Wide Leg Preta",
-      "description": "Calça preta modelo wide leg em alfaiataria",
-      "category": 11,
-      "brand": 1,
-      "cost_price": "48.00",
-      "selling_price": "94.90",
-      "quantity": 20,
-      "serie_number": "VM010",
-      "created_at": "2024-08-24T12:00:00Z",
-      "updated_at": "2024-08-24T12:00:00Z"
-    }
-  },
-  {
-    "model": "products.product",
-    "pk": 11,
-    "fields": {
-      "title": "Macacão Jeans",
-      "description": "Macacão jeans com cinto incluso",
-      "category": 12,
-      "brand": 1,
-      "cost_price": "58.00",
-      "selling_price": "114.90",
-      "quantity": 12,
-      "serie_number": "VM011",
-      "created_at": "2024-08-25T09:45:00Z",
-      "updated_at": "2024-08-25T09:45:00Z"
-    }
-  },
-  {
-    "model": "products.product",
-    "pk": 12,
-    "fields": {
       "title": "Bolsa Tote Bege",
       "description": "Bolsa tote em couro sintético bege",
-      "category": 14,
-      "brand": 1,
-      "cost_price": "35.00",
-      "selling_price": "69.90",
+      "serie_number": "VM008",
+      "cost_price": "35.00000",
+      "selling_price": "69.90000",
       "quantity": 15,
-      "serie_number": "VM012",
-      "created_at": "2024-08-26T14:20:00Z",
-      "updated_at": "2024-08-26T14:20:00Z"
+      "created_at": "2024-08-22 14:20:00",
+      "updated_at": "2024-08-22 14:20:00",
+      "brand": 1,
+      "category": 9
     }
   },
   {
     "model": "inflows.inflow",
     "pk": 1,
     "fields": {
-      "supplier": 1,
-      "product": 1,
       "quantity": 20,
       "description": "Reposição estoque conjunto moletom marrom",
-      "created_at": "2024-08-10T08:30:00Z",
-      "updated_at": "2024-08-10T08:30:00Z"
+      "created_at": "2024-08-10 08:30:00",
+      "updated_at": "2024-08-10 08:30:00",
+      "product": 1,
+      "supplier": 1
     }
   },
   {
     "model": "inflows.inflow",
     "pk": 2,
     "fields": {
-      "supplier": 1,
-      "product": 2,
       "quantity": 15,
       "description": "Nova coleção blazers oversized",
-      "created_at": "2024-08-12T13:15:00Z",
-      "updated_at": "2024-08-12T13:15:00Z"
+      "created_at": "2024-08-12 13:15:00",
+      "updated_at": "2024-08-12 13:15:00",
+      "product": 2,
+      "supplier": 1
     }
   },
   {
     "model": "inflows.inflow",
     "pk": 3,
     "fields": {
-      "supplier": 2,
-      "product": 3,
       "quantity": 25,
       "description": "Entrada vestidos para coleção festas",
-      "created_at": "2024-08-14T10:45:00Z",
-      "updated_at": "2024-08-14T10:45:00Z"
+      "created_at": "2024-08-14 10:45:00",
+      "updated_at": "2024-08-14 10:45:00",
+      "product": 3,
+      "supplier": 2
     }
   },
   {
     "model": "inflows.inflow",
     "pk": 4,
     "fields": {
-      "supplier": 1,
-      "product": 6,
       "quantity": 40,
       "description": "Reposição camisetas básicas brancas",
-      "created_at": "2024-08-16T09:20:00Z",
-      "updated_at": "2024-08-16T09:20:00Z"
+      "created_at": "2024-08-16 09:20:00",
+      "updated_at": "2024-08-16 09:20:00",
+      "product": 5,
+      "supplier": 1
     }
   },
   {
     "model": "inflows.inflow",
     "pk": 5,
     "fields": {
-      "supplier": 3,
-      "product": 12,
       "quantity": 20,
       "description": "Nova linha de bolsas tote",
-      "created_at": "2024-08-18T15:30:00Z",
-      "updated_at": "2024-08-18T15:30:00Z"
+      "created_at": "2024-08-18 15:30:00",
+      "updated_at": "2024-08-18 15:30:00",
+      "product": 8,
+      "supplier": 3
     }
   },
   {
     "model": "outflows.outflow",
     "pk": 1,
     "fields": {
-      "product": 1,
       "quantity": 5,
       "description": "Venda final de semana - conjunto moletom",
-      "created_at": "2024-08-19T16:20:00Z",
-      "updated_at": "2024-08-19T16:20:00Z"
+      "created_at": "2024-08-19 16:20:00",
+      "updated_at": "2024-08-19 16:20:00",
+      "product": 1
     }
   },
   {
     "model": "outflows.outflow",
     "pk": 2,
     "fields": {
-      "product": 2,
       "quantity": 3,
       "description": "Venda blazer para cliente VIP",
-      "created_at": "2024-08-20T11:30:00Z",
-      "updated_at": "2024-08-20T11:30:00Z"
+      "created_at": "2024-08-20 11:30:00",
+      "updated_at": "2024-08-20 11:30:00",
+      "product": 2
     }
   },
   {
     "model": "outflows.outflow",
     "pk": 3,
     "fields": {
-      "product": 3,
       "quantity": 7,
       "description": "Vendas da semana - vestidos pretos",
-      "created_at": "2024-08-21T14:15:00Z",
-      "updated_at": "2024-08-21T14:15:00Z"
+      "created_at": "2024-08-21 14:15:00",
+      "updated_at": "2024-08-21 14:15:00",
+      "product": 3
     }
   },
   {
     "model": "outflows.outflow",
     "pk": 4,
     "fields": {
-      "product": 6,
       "quantity": 12,
       "description": "Promoção camisetas básicas",
-      "created_at": "2024-08-22T10:00:00Z",
-      "updated_at": "2024-08-22T10:00:00Z"
+      "created_at": "2024-08-22 10:00:00",
+      "updated_at": "2024-08-22 10:00:00",
+      "product": 5
     }
   },
   {
     "model": "outflows.outflow",
     "pk": 5,
     "fields": {
-      "product": 7,
       "quantity": 8,
       "description": "Vendas shorts jeans destroyed",
-      "created_at": "2024-08-23T15:45:00Z",
-      "updated_at": "2024-08-23T15:45:00Z"
-    }
-  },
-  {
-    "model": "outflows.outflow",
-    "pk": 6,
-    "fields": {
-      "product": 12,
-      "quantity": 4,
-      "description": "Venda bolsas tote para revendedoras",
-      "created_at": "2024-08-24T13:20:00Z",
-      "updated_at": "2024-08-24T13:20:00Z"
-    }
-  },
-  {
-    "model": "outflows.outflow",
-    "pk": 7,
-    "fields": {
-      "product": 5,
-      "quantity": 6,
-      "description": "Conjuntos cropped para influencers",
-      "created_at": "2024-08-25T17:30:00Z",
-      "updated_at": "2024-08-25T17:30:00Z"
+      "created_at": "2024-08-23 15:45:00",
+      "updated_at": "2024-08-23 15:45:00",
+      "product": 6
     }
   }
 ]
