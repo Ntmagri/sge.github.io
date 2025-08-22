@@ -30,7 +30,12 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'unsafe-default-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
+if 'RENDER' in os.environ:
+    ALLOWED_HOSTS = ['sge-app-qjjd.onrender.com', '.onrender.com']
+    DEBUG = False
+else:
+    ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+    DEBUG = True
 
 
 # Application definition
